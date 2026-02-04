@@ -108,7 +108,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👤 Author
 
-Your Name - [@im_yogiraj](https://twitter.com/im_yogiraj)
+Yogi Raj - [@im_yogiraj](https://twitter.com/im_yogiraj)
 
 ---
 
