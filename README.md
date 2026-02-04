@@ -21,7 +21,7 @@ A stunning 3D interactive button component built with Next.js 15 and Framer Moti
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/component1.git
+git clone https://github.com/YogiRajNeelamsetti/button-component-framer-motion.git
 
 # Navigate to project directory
 cd component1
@@ -88,7 +88,7 @@ The button features:
 
 ### Deploy on Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/component1)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YogiRajNeelamsetti/button-component-framer-motion)
 
 1. Push your code to GitHub
 2. Import the project to [Vercel](https://vercel.com)
@@ -108,7 +108,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👤 Author
 
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
+Your Name - [@yourhandle](https://twitter.com/im_yogiraj)
 
 ---
 
