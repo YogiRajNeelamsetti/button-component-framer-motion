@@ -1,7 +1,23 @@
 {
-  "name": "component1",
-  "version": "0.1.0",
-  "private": true,
+  "name": "3d-button-framer-motion",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A stunning 3D interactive button component built with Next.js 15 and Framer Motion",
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/component1.git"
+  },
+  "keywords": [
+    "framer-motion",
+    "nextjs",
+    "react",
+    "animation",
+    "3d-button",
+    "ui-component",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

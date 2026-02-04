@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3D Button Component with Framer Motion
 
-## Getting Started
+A stunning 3D interactive button component built with Next.js 15 and Framer Motion, featuring perspective transformations and smooth animations.
 
-First, run the development server:
+![Component Preview](https://img.shields.io/badge/Next.js-15.3.3-black?style=for-the-badge&logo=next.js)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.15.0-blue?style=for-the-badge&logo=framer)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+
+## ✨ Features
+
+- **3D Perspective Effects** - CSS perspective and transform-style for depth
+- **Smooth Animations** - Powered by Framer Motion
+- **Interactive Hover States** - Dynamic rotation and shadow effects
+- **Responsive Design** - Works across all screen sizes
+- **TypeScript Support** - Fully typed for better DX
+- **TailwindCSS 4** - Modern utility-first styling
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/component1.git
+
+# Navigate to project directory
+cd component1
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the component in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js 15.3.3
+- **Animation:** Framer Motion 12.15.0
+- **Styling:** TailwindCSS 4
+- **Language:** TypeScript 5
+- **Font:** Geist (Vercel)
 
-## Learn More
+## 🎨 Component Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+component1/
+├── src/
+│   └── app/
+│       ├── page.tsx       # Main page
+│       ├── layout.tsx     # Root layout
+│       └── globals.css    # Global styles
+├── components/
+│   └── Content.tsx        # 3D Button component
+└── public/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Import the component into your project:
 
-## Deploy on Vercel
+```tsx
+import { Content } from '@/components/Content';
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+export default function Page() {
+  return <Content />;
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Animation Properties
+
+The button features:
+- **Hover Effects:** 3D rotation (X: 15°, Y: 10°) with elevation
+- **Box Shadow:** Dynamic glow effect on hover
+- **Tap Feedback:** Subtle press animation
+- **Smooth Transitions:** Optimized for performance
+
+## 🌐 Deployment
+
+### Deploy on Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/component1)
+
+1. Push your code to GitHub
+2. Import the project to [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and deploy
+
+### Deploy on Netlify
+
+```bash
+npm run build
+```
+
+Deploy the `.next` output directory to Netlify.
+
+## 📄 License
+
+MIT License - feel free to use this component in your projects!
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 👤 Author
+
+Your Name - [@yourhandle](https://twitter.com/yourhandle)
+
+---
+
+⭐ Star this repo if you find it helpful!
