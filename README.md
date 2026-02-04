@@ -102,10 +102,6 @@ npm run build
 
 Deploy the `.next` output directory to Netlify.
 
-## 📄 License
-
-MIT License - feel free to use this component in your projects!
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

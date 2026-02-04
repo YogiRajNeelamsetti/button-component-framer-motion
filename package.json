@@ -4,7 +4,6 @@
   "private": false,
   "description": "A stunning 3D interactive button component built with Next.js 15 and Framer Motion",
   "author": "Your Name <your.email@example.com>",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/yourusername/component1.git"
